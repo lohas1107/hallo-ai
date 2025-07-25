@@ -1,3 +1,5 @@
+include scripts/codex-cli.mk
+
 init:
 	sudo apt-get update && sudo apt-get install -y --no-install-recommends \
 	aggregate \
